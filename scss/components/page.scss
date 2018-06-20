@@ -1,0 +1,25 @@
+.l-container {
+    max-width: 1230px;
+    margin: 30px auto;
+    padding: 1rem;
+}
+
+.l-section {
+	display: flex;
+	flex-flow: column nowrap;
+
+	@media #{$sm-min} {
+		flex-flow: row wrap;
+	}
+}
+
+.l-content {
+	p {
+		line-height: 2;
+	}
+
+	@media #{$sm-min} {
+		display: inline-block;
+		flex-basis: 70%;
+	}
+}

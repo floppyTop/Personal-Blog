@@ -1,0 +1,8 @@
+.c-sidebar {
+	margin-bottom: 2rem;
+	
+	@media #{$sm-min} {
+		flex-basis: 30%;
+		float: left;
+	}
+}

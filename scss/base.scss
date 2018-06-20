@@ -1,0 +1,60 @@
+html {
+    box-sizing: border-box;
+}
+html,
+body {
+    min-height: 100%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    font-family: 'Merriweather'
+}
+
+a,
+p,
+span,
+ul {
+    font-family: lato;
+}
+
+li {
+    line-height: 1.75;
+}
+
+.page_title {
+    font-size: 48px;
+    margin-bottom: .5em;
+}
+
+.page_sub-title {
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 200;
+}
