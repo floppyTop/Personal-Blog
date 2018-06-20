@@ -36,11 +36,25 @@
 		"oAP": "\/archive.css.map",
 		"oF": 0
 		},
-	"\/index.html": {
+	"\/functions.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.html",
+		"oAP": "\/functions.php",
+		"oF": 0
+		},
+	"\/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/header.php",
+		"oF": 0
+		},
+	"\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index.php",
 		"oF": 0
 		},
 	"\/scss\/base.scss": {
@@ -147,6 +161,13 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sidebar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sidebar.php",
+		"oF": 0
+		},
 	"\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -171,7 +192,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 550556543,
-	"displayValue": "Personal-Page",
+	"displayValue": "Pondersome",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-maroney",
 	"iconImageWasSetByUser": 0

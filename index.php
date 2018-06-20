@@ -8,15 +8,14 @@ wp_head();
 </head>
 
 <body>
-    <header class="header">
-        <div class="l-container">
-            <a href="<?= bloginfo('url'); ?>"><h1 class="page_title">Matthew Schad</h1></a>
-            <span class="page_sub-title">Personal Thoughts</span>
-        </div>
-    </header>
+    
+    <?php get_header(); ?>
+
     <div class="l-container l-section clearfix">
-        
-        <?php get_sidebar(); ?>
+
+        <?php 
+            get_sidebar();
+         ?>
 
         <?php if (have_posts()): ?>
         <div class="l-content">

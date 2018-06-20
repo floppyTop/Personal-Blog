@@ -48,6 +48,19 @@ li {
     line-height: 1.75;
 }
 
+a,
+a:focus,
+a:visited,
+a:active,
+a:any-link,
+ {
+    color: #212121;
+}
+
+a:hover {
+    color: #666;
+}
+
 .page_title {
     font-size: 48px;
     margin-bottom: .5em;
