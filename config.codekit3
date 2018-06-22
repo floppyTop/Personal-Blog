@@ -122,6 +122,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/scss\/page\/single.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 1,
+		"oAP": "\/single.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/scss\/style.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -166,6 +179,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sidebar.php",
+		"oF": 0
+		},
+	"\/single.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/single.php",
 		"oF": 0
 		},
 	"\/style.css": {

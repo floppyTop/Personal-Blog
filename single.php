@@ -1,3 +1,4 @@
+
 <?php
 wp_head();
 ?>
@@ -22,14 +23,15 @@ wp_head();
             <?php while (have_posts()):
                 the_post();
              ?>
-            <div class="post-excerpt">
-                <a href="<?= the_permalink(); ?>"><h2><?= the_title(); ?></h2></a>
-                <p><?= the_excerpt(); ?></p>
+            <div class="post">
+                <a href="<?= the_permalink(); ?>"><h2 class="u-text--large"><?= the_title(); ?></h2></a>
+                <?= the_content(); ?>
             </div>
             <?php endwhile;?>
+            <?php posts_nav_link(); ?>
         </div>
-
         <?php endif;?>
+
     </div>
 </body>
 <?php wp_footer(); ?>

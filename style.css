@@ -414,6 +414,9 @@ a:any-link {
 a:hover {
   color: #666; }
 
+.u-text--large {
+  font-size: 31px; }
+
 .page_title {
   font-size: 48px;
   margin-bottom: .5em; }
