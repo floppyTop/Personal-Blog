@@ -4,6 +4,8 @@ wp_head();
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Schad | Development and Climbing Blog</title>
+    <meta name="description" content="Matthew Schad is a Front-End Developer and Designer, writing about his experiences, thoughts, and lessons that he gathers along the way.">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 </head>
 

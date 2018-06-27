@@ -379,7 +379,8 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: 'Merriweather'; }
+  font-family: 'Merriweather';
+  line-height: 1.45; }
 
 a,
 p,
