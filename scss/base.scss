@@ -58,8 +58,14 @@ a:any-link,
     color: #212121;
 }
 
-a:hover {
+a:hover { 
     color: #666;
+}
+
+pre,
+code {
+    padding: 5px;
+    background: #eee;
 }
 
 .u-text--large {

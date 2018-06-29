@@ -415,6 +415,11 @@ a:any-link {
 a:hover {
   color: #666; }
 
+pre,
+code {
+  padding: 5px;
+  background: #eee; }
+
 .u-text--large {
   font-size: 31px; }
 
