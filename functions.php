@@ -24,4 +24,10 @@ add_filter( 'wp_enqueue_scripts', 'remove_css_js_ver', 10, 2 );
 add_filter( 'style_loader_src', 'remove_css_js_ver', 10, 2 );
 add_filter( 'script_loader_src', 'remove_css_js_ver', 10, 2 ); 
 
+// 
+// Theme Supports
+// 
+
+add_theme_support( 'title-tag' );
+
 ?>
